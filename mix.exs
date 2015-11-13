@@ -16,7 +16,7 @@ defmodule Protobuffs.Mixfile do
   end
 
   defp package do
-    [files: ~w(scripts src test AUTHORS CONTRIBUTING.md cover.spec LICENSE Makefile mix.exs mix.lock README.md rebar.config VERSION),
+    [files: ~w(scripts src test AUTHORS CONTRIBUTING.md cover.spec LICENSE Makefile README.md rebar.config VERSION),
      maintainers: ["Drew Kerrigan"],
      licenses: ["Apache 2.0"],
      links: %{"GitHub" => "https://github.com/basho/erlang_protobuffs"}]
