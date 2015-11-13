@@ -7,7 +7,7 @@ defmodule Protobuffs.Mixfile do
     [app: :protobuffs,
      version: @version,
      description: "An implementation of Google's Protocol Buffers for Erlang, based on ngerakines/erlang_protobuffs.",
-     package: package
+     package: package,
      deps: deps]
   end
 
@@ -16,7 +16,7 @@ defmodule Protobuffs.Mixfile do
   end
 
   defp package do
-    [files: ~w(src scripts test rebar.config Makefile cover.spec AUTHORS ChangeLog README.markdown LICENSE VERSION),
+    [files: ~w(scripts src test AUTHORS CONTRIBUTING.md cover.spec LICENSE Makefile mix.exs mix.lock README.md rebar.config VERSION),
      maintainers: ["Drew Kerrigan"],
      licenses: ["Apache 2.0"],
      links: %{"GitHub" => "https://github.com/basho/erlang_protobuffs"}]
