@@ -12,7 +12,7 @@ defmodule Protobuffs.Mixfile do
   end
 
   defp deps do
-    [ {:meck, "~> 0.8.3"} ]
+    [ {:meck, "~> 0.8.4"} ]
   end
 
   defp package do
